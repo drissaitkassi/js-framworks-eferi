@@ -38,4 +38,27 @@ function createSquare(h,w){
    }   
 }
 
-createSquare(10,10)
+//createSquare(3,3)
+
+
+function html_list(values){
+    
+    let items =""
+    
+
+   values.forEach(element => {
+    items+=`<li>${element}</li>`
+    
+   });
+    
+    //todo: créer une chaine contenant les items de la liste
+    
+    
+    
+    
+    console.log(`<ul>${items}</ul>`)
+    
+    
+}
+
+html_list(["potato","tomato"])
